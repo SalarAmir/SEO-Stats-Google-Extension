@@ -13,6 +13,7 @@ const UserSchema = new mongoose.Schema({
     credits:{type:Number,required:true,default:0},
 })
 
+
 UserSchema.pre('save', function(next) {
    
     if (this.isNew) {

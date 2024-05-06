@@ -5,6 +5,7 @@ import MainPage from './pages/MainPage';
 import DashboardPage from './pages/DashboardPage';
 
 import { addCredits, useUserCookies } from './api/api';
+import PolicyPage from './pages/PolicyPage';
 
 function App() {
 
@@ -46,6 +47,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
+        <Route path="/policy" element={<PolicyPage />} />
       </Routes>
     </Router>
 

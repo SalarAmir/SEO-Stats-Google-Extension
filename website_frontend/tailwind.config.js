@@ -20,7 +20,8 @@ module.exports = {
           "custom-green-third": "#8BD7D2",
           "custom-gray": "#475467",
           "custom-light-green": "#d3f5ed",
-  
+          "custom-green-whitish": "#eefbf8",
+
           black: "#000",
           white: "#fff",
   
